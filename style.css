@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+:root {
+
+    --title: #f8c27a;
+    --textShadow: 0 4px 4px rgba(0,0,0,.7);
+    --boxShadow: 0 0px 20px rgba(0,0,0,.2);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 40px;
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: var(--boxShadow);
+
+}
+
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    margin-bottom: 30px;
+    color: #21c3e0;
+    text-shadow: var(--textShadow);
+    display:inline-block ;
+
+}
+
+.vies {
+   margin: 20px; 
+}
+
+ion-icon {
+    font-size: 100px;
+    fill: red;
+}
+
+#inputBox {
+    background-color: #fa86c4;
+    padding: 30px;
+    border-radius:10px;
+}
+
+#inputBox > label {
+    display: block;
+    margin-bottom: 16px;
+}
+
+input,
+button{
+    outline: none ;
+    border: none;
+    padding: 6px 40px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: rgb(212, 18, 132);
+    color: white ;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover{
+    transform: translateY(-4px);
+    background-color: rgb(214, 98, 166);
+}
+
+p#message {
+   margin: 40 px auto 0 auto; 
+   padding-top: 40px ;
+}
+
+#rejouer {
+    display: none;
+    margin: 10px auto 0 auto;
+}
+
+#details{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
