@@ -67,6 +67,9 @@ var play = function() {
                 message.textContent = "C'est Froid ❄️ ";
             }
             vies--;
+            // clear input after try
+            input.value = null;
+
             verifyLoose();
         }
 
@@ -103,6 +106,7 @@ var play = function() {
         message.style.display = "none";
         document.location.reload(true);
     });
+
 };
 
 play();

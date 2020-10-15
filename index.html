@@ -11,21 +11,21 @@
     
     <div class="container">
         <h1>Trouve le Nombre !! </h1>
-        <p>Trouve le bon nombre entre 0 et 100</p>
+        <p class="desc">Trouve le bon nombre entre 0 et 100</p>
         <div class="vies">
-             <ion-icon name="heart-outline"></ion-icon> 
-             <ion-icon name="heart-sharp"></ion-icon>
+            <ion-icon name="heart-outline"></ion-icon> 
+            <ion-icon name="heart-sharp"></ion-icon>
         </div>
         <form  id="inputBox">
-            <label for="number">Entrer un nombre</label>
-            <input type="number" id="number" min="0" max="100" required>
-            <button type="submit" id="essayerBtn">Essayer</button>
-            <p id="message">Bonne chance</p>
-            <button id="rejouer">Rejouer?</button>
+            <label class="desc" for="number">Choisis ton nombre</label>
+            <input class="number" type="number" id="number" min="0" max="100" required>
+            <button type="submit" class="essayerBtn" id="essayerBtn">Essayer</button>
+            <p id="message">Bonne chance !</p>
+            <button class="rejouer" id="rejouer">Rejouer?</button>
         </form>
 
         <p id="details"> * Brulant= &plusmn;2; Chaud= &plusmn;5;
-             Tiède= &plusmn;10; Froid= + de 10.</p>
+            Tiède= &plusmn;10; Froid > 10</p>
     </div>
     
     

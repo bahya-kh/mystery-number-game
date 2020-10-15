@@ -45,7 +45,7 @@ h1{
 }
 
 .vies {
-   margin: 20px; 
+    margin: 20px; 
 }
 
 ion-icon {
@@ -78,6 +78,9 @@ button{
     cursor: pointer;
     transition: all 0.2s;
 }
+.essayerBtn{
+    font-size: x-large;
+}
 
 button:hover{
     transform: translateY(-4px);
@@ -85,11 +88,13 @@ button:hover{
 }
 
 p#message {
-   margin: 40 px auto 0 auto; 
-   padding-top: 40px ;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    margin: 40 px auto 0 auto; 
+    padding-top: 40px ;
 }
 
-#rejouer {
+.rejouer {
     display: none;
     margin: 10px auto 0 auto;
 }
@@ -98,4 +103,14 @@ p#message {
     font-weight: bold;
     font-size: 20px;
     margin-top: 10px;
+}
+
+.desc{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+}
+
+.number{
+   font-size: x-large;
+   width: 30%;
 }
